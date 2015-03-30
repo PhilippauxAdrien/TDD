@@ -28,6 +28,20 @@ public class TestConvert {
 		String expected8 = "huit";
 		String input9= "9";
 		String expected9 = "neuf";
+		String input10= "10";
+		String expected10 = "dix";
+		String input11= "11";
+		String expected11 = "onze";
+		String input12= "12";
+		String expected12 = "douze";
+		String input13= "13";
+		String expected13 = "treize";
+		String input14= "14";
+		String expected14 = "quatorze";
+		String input15= "15";
+		String expected15 = "quinze";
+		String input16= "16";
+		String expected16 = "seize";
 		Convert myConvert = new Convert();
 		// When
 		String actual = myConvert.num2text(input);
@@ -52,6 +66,20 @@ public class TestConvert {
 		Assert.assertEquals(expected8, actual);
 		actual = myConvert.num2text(input9);
 		Assert.assertEquals(expected9, actual);
+		actual = myConvert.num2text(input10);
+		Assert.assertEquals(expected10, actual);
+		actual = myConvert.num2text(input11);
+		Assert.assertEquals(expected11, actual);
+		actual = myConvert.num2text(input12);
+		Assert.assertEquals(expected12, actual);
+		actual = myConvert.num2text(input13);
+		Assert.assertEquals(expected13, actual);
+		actual = myConvert.num2text(input14);
+		Assert.assertEquals(expected14, actual);
+		actual = myConvert.num2text(input15);
+		Assert.assertEquals(expected15, actual);
+		actual = myConvert.num2text(input16);
+		Assert.assertEquals(expected16, actual);
 		}
 	
 }

@@ -15,7 +15,6 @@ public class TestConvert {
 		String actual = myConvert.num2text(input);
 		// Then
 		Assert.assertEquals(expected, actual);
-		
-	}
+		}
 	
 }
